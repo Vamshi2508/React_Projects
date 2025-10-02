@@ -1,0 +1,30 @@
+body {
+    background-image: url('timerBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;   
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.clock-container {
+   backdrop-filter: blur(10px);
+   width:100vw;
+   padding :10px 0;
+   text-align: center;
+}
+
+.clock {
+    font-size:6rem;
+    color: rgb(26, 179, 156);
+    font-weight:bold;
+    font-family:monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562)
+}
