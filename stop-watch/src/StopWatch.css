@@ -1,0 +1,65 @@
+body{
+        background-color: gray;
+}
+.container {
+    border: 3px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-left:35%;
+    margin-right:35%;
+    margin-top:15%;
+    background-color:rgba(255, 255, 255, 0.808);
+}
+
+h1{
+    color:blue;
+}
+
+button{
+    font-size:1.5rem;
+    padding : 3px ;
+    border: 3px solid;
+    border-radius: 5px;
+    margin: 0 10px;
+    margin-bottom: 2px;
+    width: auto;
+}
+
+
+.start {
+    background-color: rgb(6, 150, 6);
+    cursor: pointer;
+}
+
+.start:hover{
+    background-color: rgb(100, 204, 100);
+}
+
+.stop {
+    background-color:rgba(255, 0, 0, 0.749);
+    cursor: pointer;
+}
+
+.stop:hover{
+    background-color: rgba(228, 130, 130, 0.897);
+}
+
+.reset {
+    background-color: #0491a0;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(140, 208, 215);
+}
+
+
+
+
+
+
+
+
+
+
+
